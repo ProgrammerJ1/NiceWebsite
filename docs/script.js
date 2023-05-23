@@ -1,3 +1,1 @@
-GR() {
-    d;
-}
+//I copy my code from the HTML file after I finish writing it there to use IDE features.
