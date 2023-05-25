@@ -16,6 +16,7 @@ body {
     float: left;
 }
 .NavbarElements {
+    font-size: 30px;
     display: block;
     padding: 8px;
     background-color: purple;
@@ -28,7 +29,7 @@ body {
 }
 .NesInfoText {
     color: green;
-    font-size: medium;
+    font-size: 30px;
 }
 img {
     display: block;
