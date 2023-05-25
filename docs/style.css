@@ -28,6 +28,7 @@ body {
 }
 .NesInfoText {
     color: green;
+    font-size: medium;
 }
 img {
     display: block;
