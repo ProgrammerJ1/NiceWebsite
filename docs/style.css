@@ -1,39 +1,50 @@
 body {
+    background-color: #868484;
+    color: #333;
+    font-family: Arial, sans-serif;
     text-align: center;
 }
+
 .HeadingElements {
     background-color: purple;
     border-style: solid;
     border-width: 2px;
     border-color: blue;
 }
+
 #Navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
+
 .NavbarElementContainer {
     float: left;
 }
+
 .NavbarElements {
     font-size: 30px;
     display: block;
     padding: 8px;
     background-color: purple;
 }
+
 #About {
     background-color: red;
     border-style: solid;
     border-width: 2px;
     border-color: darkgreen;
 }
+
 .NesInfoText {
     color: darkgreen;
 }
+
 figcaption.NesInfoText {
     font-size: 15px;
 }
+
 #HowToUse {
     background-color: orange;
     border-style: solid;
@@ -41,16 +52,23 @@ figcaption.NesInfoText {
     border-color: rgb(17, 17, 156);
     color: rgb(17, 17, 156);
 }
-* :not(h1).HowToUseText {
+
+*:not(h1).HowToUseText {
     font-size: 15px;
 }
+
+#TopGames {
+    /* Missing value or property declaration */
+}
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
 }
+
 #NESControllerPic {
-    width:363px;
+    width: 363px;
     height: 162px;
 }
