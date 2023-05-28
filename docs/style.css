@@ -1,12 +1,6 @@
 body {
     background-color: #868484;
-    color: #333;
     font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-h1 {
-    color: #cc0000;
     text-align: center;
 }
 
@@ -28,7 +22,6 @@ td {
 }
 
 a {
-    color: #cc0000;
     text-decoration: none;
 }
 .HeadingElements {
@@ -36,6 +29,7 @@ a {
     border-style: solid;
     border-width: 2px;
     border-color: blue;
+    color: blue;
 }
 #Navbar {
     list-style-type: none;
@@ -51,6 +45,15 @@ a {
     display: block;
     padding: 8px;
     background-color: purple;
+    color: blue;
+}
+
+.NavbarElements:hover {
+    color: orange;
+}
+.NavbarElements:active {
+    color: orange;
+    text-decoration: underline
 }
 #About {
     background-color: red;
