@@ -4,6 +4,18 @@
         <title>About the NES</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
+        <script>
+            function DestroyOthers(Self) {
+                var UsedIds=["#About","#HowToUse","#TopGames"]
+                let KeptId=UsedIds.splice(Self,1)
+                console.log(UsedIds)
+                for (var i=0;i<UsedIds.length;i++) {
+                    console.log("Hiding: "+UsedIds[i])
+                    $(UsedIds[i]).hide()
+                }
+                $(KeptId[0]).show();
+            }
+        </script>
       </head>
     <body>
         <div id="Heading">
@@ -12,8 +24,8 @@
             </div>
             <div class="HeadingElements">
                 <ul id="Navbar">
-                    <li class="NavbarElementContainer"><a class="NavbarElements" href="#About">About</a></li>
-                    <li class="NavbarElementContainer"><a class="NavbarElements" href="#HowToUse">How to Play</a></li>
+                    <li class="NavbarElementContainer"><a class="NavbarElements" href="#About" onclick="DestroyOthers(0)">About</a></li>
+                    <li class="NavbarElementContainer"><a class="NavbarElements" href="#HowToUse" onclick="DestroyOthers(1)">How to Play</a></li>
                 </ul>
             </div>
         </div>
@@ -41,7 +53,7 @@
                 <li><p class="HowToUseText">Download an emulator and use NES ROMs. Note: Do not download online NES ROMs of copyrighted games, as they are illegal to download. Instead, use hardware to rip ROMs from NES cartridges to store them on the computer if it is a copyrighted game. This is not illegal.</p></li>
             </ol>
         </div>
-        <div>
+        <div id="Top Games">
             d
         </div>
     </body>
