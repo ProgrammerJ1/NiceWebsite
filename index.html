@@ -13,22 +13,20 @@
             </div>
             <div class="HeadingElements">
                 <ul id="Navbar">
-                    <li class="NavbarElementContainer"><a class="NavbarElements" href="#About" onclick="DestroyOthers(0)">About</a></li>
-                    <li class="NavbarElementContainer"><a class="NavbarElements" href="#HowToUse" onclick="DestroyOthers(1)">How to Play</a></li>
-                    <li class="NavbarElementContainer"><a class="NavbarElements" href="#TopGames" onclick="DestroyOthers(2)">Top Games</a></li>
+                    <li class="NavbarElementContainer"><a class="NavbarElements" href="#About">About</a></li>
+                    <li class="NavbarElementContainer"><a class="NavbarElements" href="#HowToUse">How to Play</a></li>
+                    <li class="NavbarElementContainer"><a class="NavbarElements" href="#TopGames">Top Games</a></li>
                 </ul>
             </div>
         </div>
         <div id="About">
-            <div class="Dropdown">
-                <button class="DropdownButton">
-                    <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-                        <defs></defs>
-                        <path d="M 194.59 -204.649 Q 194.939 -205.254 195.287 -204.649 L 207.998 -182.605 Q 208.347 -182 207.65 -182 L 182.227 -182 Q 181.53 -182 181.879 -182.605 Z" style="stroke: rgb(0, 0, 0); fill: rgb(94, 94, 94);" transform="matrix(1, 0, 0, -1, 0, 0)" bx:shape="triangle 181.53 -205.254 26.817 23.254 0.5 0.026 1@477ba0d2"></path>
-                    </svg>
-                </button>
+            <div>
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com" class="DropdownButton" onclick="D">
+                    <defs></defs>
+                    <path d="M 194.59 -204.649 Q 194.939 -205.254 195.287 -204.649 L 207.998 -182.605 Q 208.347 -182 207.65 -182 L 182.227 -182 Q 181.53 -182 181.879 -182.605 Z" style="stroke: rgb(0, 0, 0); fill: rgb(94, 94, 94);" transform="matrix(1, 0, 0, -1, 0, 0)" bx:shape="triangle 181.53 -205.254 26.817 23.254 0.5 0.026 1@477ba0d2"></path>
+                </svg>
             </div>
-            <div id="Content">
+            <div>
                 <h1 class="NesInfoText">About the NES</h1>
                 <figure>
                     <a href="https://www.emulator-zone.com/doc.php/nes/" target="_blank"><img src="assests/NES.png" alt="The NES"></a>
@@ -41,20 +39,34 @@
             </div>
         </div>
         <div id="HowToUse">
-            <figure>
-                <a href="https://www.nintendo.com/search/#q=NES&p=1&cat=all&sort=df" target="_blank"><img src="assests/NESController.png" alt="A NES controller" id="NESControllerPic"></a>
-                <figcaption class="HowToUseText">This is an NES Controller.</figcaption>
-            </figure>
-            <h1>In order to use to play NES games, you have a few options: </h1>
-            <ol>
-                <li><p class="HowToUseText">Buy the original NES<p></li>
-                <li><p class="HowToUseText">Buy the NES Classic. Note: You can hack the NES classics to add your games as shown in the video at the bottom, by <strong style="font-size: 22px;">Patton Plays, youtube channel at this <a href="https://www.youtube.com/@PattonPlays">link</a></strong></p></li>
-                <li><p class="HowToUseText">Use Virtual Consoles on modern consoles</p></li>
-                <li><p class="HowToUseText">Download an emulator and use NES ROMs. Note: Do not download online NES ROMs of copyrighted games, as they are illegal to download. Instead, use hardware to rip ROMs from NES cartridges to store them on the computer if it is a copyrighted game. This is not illegal.</p></li>
-            </ol>
-            <iframe width="1271" height="715" src="https://www.youtube.com/embed/JwaGYQTniTU" title="How to Hack and add games to your NES and SNES Classic using Hakchi CE (Tutorial)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div>
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com" class="DropdownButton" onclick="D">
+                    <defs></defs>
+                    <path d="M 194.59 -204.649 Q 194.939 -205.254 195.287 -204.649 L 207.998 -182.605 Q 208.347 -182 207.65 -182 L 182.227 -182 Q 181.53 -182 181.879 -182.605 Z" style="stroke: rgb(0, 0, 0); fill: rgb(94, 94, 94);" transform="matrix(1, 0, 0, -1, 0, 0)" bx:shape="triangle 181.53 -205.254 26.817 23.254 0.5 0.026 1@477ba0d2"></path>
+                </svg>
+            </div>
+            <div>
+                <figure>
+                    <a href="https://www.nintendo.com/search/#q=NES&p=1&cat=all&sort=df" target="_blank"><img src="assests/NESController.png" alt="A NES controller" id="NESControllerPic"></a>
+                    <figcaption class="HowToUseText">This is an NES Controller.</figcaption>
+                </figure>
+                <h1>In order to use to play NES games, you have a few options: </h1>
+                <ol>
+                    <li><p class="HowToUseText">Buy the original NES<p></li>
+                    <li><p class="HowToUseText">Buy the NES Classic. Note: You can hack the NES classics to add your games as shown in the video at the bottom, by <strong style="font-size: 22px;">Patton Plays, youtube channel at this <a href="https://www.youtube.com/@PattonPlays">link</a></strong></p></li>
+                    <li><p class="HowToUseText">Use Virtual Consoles on modern consoles</p></li>
+                    <li><p class="HowToUseText">Download an emulator and use NES ROMs. Note: Do not download online NES ROMs of copyrighted games, as they are illegal to download. Instead, use hardware to rip ROMs from NES cartridges to store them on the computer if it is a copyrighted game. This is not illegal.</p></li>
+                </ol>
+                <iframe width="1271" height="715" src="https://www.youtube.com/embed/JwaGYQTniTU" title="How to Hack and add games to your NES and SNES Classic using Hakchi CE (Tutorial)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
         <div id="TopGames">
+            <div>
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com" class="DropdownButton" onclick="D">
+                    <defs></defs>
+                    <path d="M 194.59 -204.649 Q 194.939 -205.254 195.287 -204.649 L 207.998 -182.605 Q 208.347 -182 207.65 -182 L 182.227 -182 Q 181.53 -182 181.879 -182.605 Z" style="stroke: rgb(0, 0, 0); fill: rgb(94, 94, 94);" transform="matrix(1, 0, 0, -1, 0, 0)" bx:shape="triangle 181.53 -205.254 26.817 23.254 0.5 0.026 1@477ba0d2"></path>
+                </svg>
+            </div>
             <h1>Top 3 Best Games to play on the NES (and top three worst ones)</h1>
             <h2>Top 3 Best Games</h2>
             <table>
