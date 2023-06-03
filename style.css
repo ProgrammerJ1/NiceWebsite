@@ -95,5 +95,17 @@ img {
     height: 162px;
 }
 .DropdownButton {
-    float: left
+    float: left;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+#About div {
+    border: inherit;
+}
+#HowToUse div {
+    border: inherit;
+}
+#TopGames div {
+    border: inherit;
 }

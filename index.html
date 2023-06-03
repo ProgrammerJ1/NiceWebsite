@@ -5,6 +5,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
         <script>
+            function Dropdown() {
+                j
+            }
         </script>
       </head>
     <body>
@@ -21,15 +24,24 @@
             </div>
         </div>
         <div id="About">
-            <h1 class="NesInfoText">About the NES</h1>
-            <figure>
-                <a href="https://www.emulator-zone.com/doc.php/nes/" target="_blank"><img src="assests/NES.png" alt="The NES"></a>
-                <figcaption class="NesInfoText">The NES is an 8-bit gaming console. It was used in the past for early gaming. It stores classics that many would enjoy such as Super Mario Bros. 1-3, Mega Man 1-6, Little Mac, Metroid, .etc. It was very popular in its day, and the games it stored are still beloved to many. There is also a Japanese counterpart called the Famicon, which has a shorter controller cord, but more advanced sound channels. Click on the picture above to access emulators.</figcaption>
-            </figure>
-            <figure>
-                <a href="https://forums.nesdev.org" target="_blank"><img src="assests/Famicom.png" alt="The Famicon, the Japenese version of the NES"></a>
-                <figcaption class="NesInfoText">The Famicon is a Japenese version of the NES. It is very similar to the NES, except for the fact that it has a different physical layout, and doesn't support the 10NES lockout chip. Click on the picture about to access forums.</figcaption>
-            </figure>
+            <div>
+                <button class="DropdownButton" onclick="Dropdown()">
+                    <svg height="10" width="15">
+                        <polygon points="0,0 15,5 0,10"></polygon>
+                    </svg>
+                </button>
+            </div>
+            <div>
+                <h1 class="NesInfoText">About the NES</h1>
+                <figure>
+                    <a href="https://www.emulator-zone.com/doc.php/nes/" target="_blank"><img src="assests/NES.png" alt="The NES"></a>
+                    <figcaption class="NesInfoText">The NES is an 8-bit gaming console. It was used in the past for early gaming. It stores classics that many would enjoy such as Super Mario Bros. 1-3, Mega Man 1-6, Little Mac, Metroid, .etc. It was very popular in its day, and the games it stored are still beloved to many. There is also a Japanese counterpart called the Famicon, which has a shorter controller cord, but more advanced sound channels. Click on the picture above to access emulators.</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://forums.nesdev.org" target="_blank"><img src="assests/Famicom.png" alt="The Famicon, the Japenese version of the NES"></a>
+                    <figcaption class="NesInfoText">The Famicon is a Japenese version of the NES. It is very similar to the NES, except for the fact that it has a different physical layout, and doesn't support the 10NES lockout chip. Click on the picture about to access forums.</figcaption>
+                </figure>
+            </div>
         </div>
         <div id="HowToUse">
             <figure>
@@ -46,8 +58,8 @@
             <iframe width="1271" height="715" src="https://www.youtube.com/embed/JwaGYQTniTU" title="How to Hack and add games to your NES and SNES Classic using Hakchi CE (Tutorial)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div id="TopGames">
-            <h1>Top 3 Best Games to play on the NES (and top three worst ones)</h1>
-            <h2>Top 3 Best Games</h2>
+            <h1>Top 4 Best Games to play on the NES (and top three worst ones)</h1>
+            <h2>Top 4 Best Games</h2>
             <table>
                 <tr>
                     <th>Game</th>
@@ -73,8 +85,14 @@
                     <td><strong>3/5</strong></td>
                     <td>This game, is quite a fun game and offers a challenging experience to those who try to play it. However, it has some design issues and flaws that prevent it from being higher rated.</td>
                 </tr>
+                <tr>
+                    <td>Legend of Zelda</td>
+                    <td><img src="https://th.bing.com/th/id/R.fa0a6e6b5a9e3b4e988ffdf38b81c350?rik=Dnp7%2bHh4Z%2f5dKA&riu=http%3a%2f%2fwww.mobygames.com%2fimages%2fcovers%2fl%2f14445-the-legend-of-zelda-nes-front-cover.jpg&ehk=u2Ep0KVIBCRTWjIP%2fkZbCSyOhWXEdupfOezcov5HELU%3d&risl=&pid=ImgRaw&r=0"></td>
+                    <td><strong>3/5</strong></td>
+                    <td>This a very fun, explorative game. However, at some points, you will be left struggling without a guide.</td>
+                </tr>
             </table>
-            <h2>Top 3 Worst Games</h2>
+            <h2>Top 4 Worst Games</h2>
             <table>
                 <tr>
                     <th>Game</th>
@@ -99,6 +117,12 @@
                     <td><img src="https://upload.wikimedia.org/wikipedia/en/8/89/DrJekyllAndMrHydeNESBoxart.jpg"></td>
                     <td><strong>1/5</strong></td>
                     <td>This is a game that is more obscure. This mechanics of Mr. Jekyll and Mr. Hyde are very confusing, and the game also has bad graphics.  The game is virtually unplayable and does not even have a good story to go along with it.</td>
+                </tr>
+                <tr>
+                    <td>Kid Kool</td>
+                    <td><img src="https://th.bing.com/th/id/OIP.B3iaHZiQuzIT4-Bu8uz3vwHaKJ?pid=ImgDet&rs=1"></td>
+                    <td><strong>🗑️/5</strong></td>
+                    <td>The name of this game, and the fact that the second and final bosses are differently colored clones of each other, just with different platforms, should tell you all you need to know. However, if you're still not convinced, look at footage of others playing, or better yet, boot it up in an emulator. It's a horrible Super Mario Bros. clone</td>
                 </tr>
             </table>
         </div>
