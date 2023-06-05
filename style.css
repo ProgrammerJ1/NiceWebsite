@@ -60,8 +60,6 @@ a {
     border-style: solid;
     border-width: 2px;
     border-color: darkgreen;
-}
-.NesInfoText {
     color: darkgreen;
 }
 figcaption.NesInfoText {
@@ -108,4 +106,8 @@ img {
 }
 #TopGames div {
     border: inherit;
+}
+.DropdownBox {
+    display: flex;
+    text-align: center;
 }
