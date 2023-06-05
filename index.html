@@ -4,21 +4,7 @@
         <title>About the NES</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <link rel="stylesheet" href="style.css">
-        <script>
-            const DocileDropdownButton="<svg height=\"10\" width=\"15\"><polygon points=\"0,0 15,5 0,10\"></polygon></svg>"
-            const ActiveDropdownButton="<svg height=\"15\" width=\"10\"><polygon points=\"0,0 10,0 5,15\"></polygon></svg>"
-            $("document").ready(function() {
-                $(".DropdownButton").click(function () {
-                    if ($(this).parent().next().css("display")=="none") {
-                        $(this).parent().next().css("display","block")
-                        $(this).children().eq(0).replaceWith(ActiveDropdownButton)
-                    } else {
-                        $(this).parent().next().css("display","none")
-                        $(this).children().eq(0).replaceWith(DocileDropdownButton)
-                    }
-                })
-            })
-        </script>
+        <script src="script.js"></script>
       </head>
     <body>
         <div id="Heading">
