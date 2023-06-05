@@ -59,8 +59,8 @@ a {
     background-color: red;
     border-style: solid;
     border-width: 2px;
-    border-color: darkgreen;
-    color: darkgreen;
+    border-color: rgb(9, 85, 9);
+    color: rgb(9, 85, 9);
 }
 figcaption.NesInfoText {
     font-size: 15px;
